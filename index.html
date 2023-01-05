@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="./index.css">
+    <link type="image/svg" size="32x32" rel="icon" href="./images/images.png">
+</head>
+<body>
+    <div class="container">
+        <h1 id="closeGreeting">Тестовое задание сделано специально для @antonymofyou !</h1>
+        <h2 id="greetingUnderText">Вы можете закрыть это сообщение, нажав на него.</h2>
+        <button id="openModal">
+            Оплатить
+        </button>
+
+        <div id="formWrapper">
+            <form  class="pay-form">
+                <input required type="name" placeholder="Name">
+                <input required type="surname" placeholder="Surname">
+                <input required type="tel" placeholder="Phone" minlength="11" maxlength="12">
+                <input required type="email" placeholder="Email">
+                <button class="submit">Подтвердить</button>
+                <div id="closeModal">&times;</div>
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
